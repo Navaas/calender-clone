@@ -2,19 +2,12 @@
 
 ## Installation
 
-Projektet är förinställt med skript i `package.json` filen för att du enkelt ska kunna köra starta och testa projektet, det görs med `npm run <script-name>`.
+Projektet är förinställt med skript i `package.json` filen för att du enkelt ska kunna köra starta och testa projektet, det görs med `npm run dev`.
 
 Nedan har du en lista på de olika skripten som kan köras i terminalen:
 
 - `npm install` - Installerar alla NodeJS moduler (körs en gång).
-- `npm run update` - Uppdaterar testerna, behöver köras om läraren har ändrat dem.
-- `npm run dev` - Startar utvecklingsservern och öppnar projektet i Chrome.
-- `npm test` - Startar utvecklingsservern och Cypress så du kan jobba med kravlistan.
-- `npm test -- --run` - Kör alla testerna en gång i terminalen.
-
-Det räcker att bara köra `npm test` om du vill jobba med kravlistan eftersom skriptet också startar utvecklingsservern.
-
-> Om du får felet `Cypress verification timed out` kan du förlänga tiden för verifieringen - [läs mer här](https://stackoverflow.com/questions/63667880/cypress-verification-timed-out-after-30000-milliseconds).
+- `npm run dev` - Kör programmet.
 
 ## Uppgiftsbeskrivning
 
@@ -36,23 +29,6 @@ _Skiss att utgå ifrån till er layout (vissa delar så som väder och bilder be
 ![image](https://user-images.githubusercontent.com/89253350/190601575-f8ef32d0-2fcc-47ff-b44b-dddb082c2db7.png)
 
 ---
-
-### Lista av data-cy som ska finnas i koden
-
-- Välkomstsegment för aktuell dag:`data-cy="welcome-segment"`
-- Lista med alla todos: `data-cy="todo-list”`
-- Elementet som innehåller alla dagarna i en månad: `data-cy="calendar-body"`
-- Elementet för varje dag i kalendern: `data-cy="calendar-cell"`
-- Elementet som visar dagen i en cell: `data-cy="calendar-cell-date"`
-- Elementet som visar antal todos i en cell: `data-cy="calendar-cell-todos"`
-- Knapp för att visa todo formulär (valfritt): `data-cy="todo-reveal-form"`
-- Inputfält för titeln på en todo: `data-cy="todo-title-input"`
-- Inputfält för datumet på en todo: `data-cy="todo-date-input"`
-- Knapp för att spara en ny todo: `data-cy="save-todo-button"`
-- Knapp för att ta bort en todo: `data-cy="delete-todo-button”`
-- Knapp för att ändra en todo: `data-cy="edit-todo-button”`
-- Knapp för att ändra månad till föregående månad: `data-cy="prev-month"`
-- Knapp för att ändra månad till nästa månad: `data-cy="next-month"`
 
 ### Ärendelista
 
