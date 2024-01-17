@@ -6,7 +6,7 @@ Projektet är förinställt med skript i `package.json` filen för att du enkelt
 
 Nedan har du en lista på de olika skripten som kan köras i terminalen:
 
-- `npm install` - Installerar alla NodeJS moduler (körs en gång).
+- `npm install vite` - Installerar alla NodeJS moduler (körs en gång).
 - `npm run dev` - Kör programmet.
 
 ## Uppgiftsbeskrivning
